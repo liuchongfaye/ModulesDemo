@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (44)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MDHomeList (0.1.2):
+    - CTMediator
+    - Masonry
+    - MDHud
+    - UserDetailCategory
+  - MDHud (0.1.1):
+    - MBProgressHUD
+  - UserDetail (0.1.0):
+    - Masonry
+    - MDHud
+  - UserDetailCategory (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - AFNetworking
+  - Masonry
+  - MBProgressHUD
+  - MDHomeList
+  - MDHud
+  - UserDetail
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CTMediator
+    - Masonry
+    - MBProgressHUD
+  https://github.com/liuchongfaye/MDSpecs.git:
+    - MDHomeList
+    - MDHud
+    - UserDetail
+    - UserDetailCategory
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MDHomeList: beb0d1b4d02ff9c1f13c76633cf743f80de6accd
+  MDHud: 739fd1fffb4bb0920e3728247eb20819164593a7
+  UserDetail: 0439a32abe4f4e7a0ee85a29d7327c89bfc60e6b
+  UserDetailCategory: cd1fece2aaf9f19c911a9f421a5515e83a3b47cb
+
+PODFILE CHECKSUM: 0d97df1f00d90a4eb294d4e8391164ef9eec97bd
+
+COCOAPODS: 1.8.4
