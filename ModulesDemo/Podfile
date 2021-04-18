@@ -1,0 +1,28 @@
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/liuchongfaye/MDSpecs.git'
+
+use_frameworks!
+
+target 'ModulesDemo' do
+
+   # 公共库，存放在 https://github.com/CocoaPods/Specs.git 中的库
+   pod 'AFNetworking'
+   pod 'Masonry'
+   pod 'MBProgressHUD'
+   
+   
+   # 项目基础组件，存放在 https://github.com/liuchongfaye/MDSpecs.git 中的基础组件
+   pod 'MDHud'
+   
+   
+   # 项目业务组件，https://github.com/liuchongfaye/MDSpecs.git 中的k基础组件
+   
+   # 首页列表
+   pod 'MDHomeList'
+   
+   # 播放详情页面
+   pod 'UserDetail'
+   
+end
